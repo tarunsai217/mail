@@ -1,0 +1,52 @@
+.MailitemContainer{
+    background-color: #F9F8F8;
+    background-color: #F2F2F2;
+    color: #6F7173;
+    padding: 0.5rem 1rem;
+    text-align: left;
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid rgba(1,1,1,0.1);
+    box-sizing: border-box;
+}
+
+.notRead{
+    background-color: white;
+    color: #6F7173;
+    padding: 0.5rem 1rem;
+    text-align: left;
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid rgba(1,1,1,0.1);
+    box-sizing: border-box;
+}
+
+.MailitemContainer input{
+    margin:auto 0;
+    padding: 0.5rem;
+    margin-right: 1rem;
+}
+.notRead input{
+    margin:auto 0;
+    padding: 0.5rem;
+    margin-right: 1rem;
+}
+
+.nameContainer,.subjectContainer,.timeContainer{
+    display: flex;
+    place-items: center;
+}
+
+.nameContainer{
+    width: 25%;
+}
+
+.subjectContainer{
+    width: 60%;
+}
+
+.timeContainer{
+    display: flex;
+    justify-content: flex-end;
+    width: 15%;
+}

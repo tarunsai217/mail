@@ -1,0 +1,201 @@
+.parentContainer{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+/* aside container styling */
+.asideContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #283847;
+    color: #E9EDF2;
+    height: 100%;
+    width:15%;
+}
+
+.collapsedAsideContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #283847;
+    color: #E9EDF2;
+    height: 100%;
+    width: 15%;
+     display: none;
+}
+.userDetails{
+    display: flex;
+    flex-direction: column;
+    padding: 1.25rem;    
+    text-align: left;
+}
+
+.userDetails img{
+    height:50px;
+    width: 50px;
+    border-radius: 25%;
+}
+
+.navigationContainer{
+    width: 100%;
+}
+
+.navigationContainer ul{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    list-style: none;
+}
+
+.navigationContainer ul li{
+    padding:0.925rem;
+    text-align: left;
+    background-color: #2E4051;
+    cursor: pointer;
+}
+
+/* mailContainer  */
+.mailContainer{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    height: 100%;
+}
+
+.mailCollapsedContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+/* search bar */
+.searchBar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.searchBar input{
+    height: 3rem;
+    width:25rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+}
+
+.searchBarFirstChild button{
+ color:white ;  
+ background-color:#00B494;
+ border:none;
+ margin:0.5rem;
+}
+
+.searchBarSecondChild{
+    display: flex;
+    place-items: center;
+}
+
+
+/* mail */
+.mail{
+    display: flex;
+    background-color: #F3F3F4;
+    padding:1rem 1rem 0rem 1rem;
+    height: 100%;
+}
+
+.compose{
+    text-align: left;
+    width: 20%;
+    padding:0rem 1rem  0rem 0.5rem ;
+    color: #737373;
+}
+
+.compose button{
+    padding:0.5rem;
+    margin:0 auto;
+    background-color: #00B494;
+    color: white; 
+    border: none;
+    width: 90%;
+    border-radius: 0.25rem;
+    justify-self: center;
+    cursor: pointer;
+}
+.compose ul{
+    list-style: none;
+    padding-left: 0;
+    margin-top:0;
+}
+.compose ul li{
+    border-bottom: 1px solid rgba(1,1,1,0.09);
+    padding: 0.25rem 0;
+    font-size: 0.9rem;
+}
+.compose h5{
+    margin-bottom: 0;
+}
+.compose span{
+    font-size: 0.8rem;
+    padding: 0.25rem;
+    background-color: white;
+    margin:0.5rem;
+    word-wrap: break-word;
+}
+.compose .spanContainer{
+    margin-top: 1rem;
+    width: 100%;
+    height:min-content;
+    overflow-wrap: break-word;
+}
+
+.inboxContainer{
+    background-color: white;
+    width: 80%;
+    padding: 1rem;
+}
+
+.inboxHeading {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.inboxHeadingFirstChild{
+   display: flex;
+   justify-content: space-between;
+}
+.inboxHeadingFirstChild div{
+    display: flex;
+    place-items: center;
+}
+.inboxHeadingFirstChild div input{
+    height: 1.5rem;
+}
+.inboxHeadingFirstChild div button{
+    height: 1.9rem;
+    background-color: #00B494;
+    color: white; 
+    border:none;
+    border-radius: 0.2rem;
+}
+
+.inboxHeadingSecondChild {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inboxHeadingSecondChild div{
+    display: flex;
+    place-items: center;
+}
+
+.inboxList{
+    margin-top: 1rem;
+    border-top: 1px solid black;
+    width: 100%;
+}
